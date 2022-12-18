@@ -110,9 +110,9 @@
     "https://deno.land/x/ts_morph@17.0.1/common/ts_morph_common.js": "49a79124b941ba2b35d81ac9eb90fc33c957b2640cdb97569c1941bac5a3bbdb",
     "https://deno.land/x/ts_morph@17.0.1/common/typescript.d.ts": "57e52a0882af4e835473dda27e4316cc31149866970210f9f79b940e916b7838",
     "https://deno.land/x/ts_morph@17.0.1/common/typescript.js": "5dd669eb199ee2a539924c63a92e23d95df43dfe2fbe3a9d68c871648be1ad5e",
-    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.1.2/mod.ts": "c97dd0212b33a0ff91d9037bb1c462dcc472561dec78d783af95acb39892cd8b",
-    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.1.2/src/int.ts": "f5092f8f9951c98b0798eff39a10a9c68b8242ac05dbdbd2c9bd73f874b0a979",
-    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.1.2/src/uint6.ts": "3306800a85fa65adc8417441c12ec8a782f90ff76a8ad5f5cdbd762cbced2a81",
-    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.1.2/src/uint8.ts": "936d3aaac4b4b116d36d86281c9831f4a045b54ff221bd1952af242bc811d6d6"
+    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.2.1/mod.ts": "c97dd0212b33a0ff91d9037bb1c462dcc472561dec78d783af95acb39892cd8b",
+    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.2.1/src/int.ts": "4edff227e70b114920a47ef960ec5b7501ae9fcb08e6bdaa57c4f93f9c62ffb5",
+    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.2.1/src/uint6.ts": "3306800a85fa65adc8417441c12ec8a782f90ff76a8ad5f5cdbd762cbced2a81",
+    "https://raw.githubusercontent.com/i-xi-dev/int.es/1.2.1/src/uint8.ts": "936d3aaac4b4b116d36d86281c9831f4a045b54ff221bd1952af242bc811d6d6"
   }
 }
