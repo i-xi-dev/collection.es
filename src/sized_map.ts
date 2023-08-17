@@ -1,11 +1,9 @@
 import { Integer } from "../deps.ts";
 
-type int = number;
-
 class SizedMap<K, V> extends Map<K, V> {
-  #maxSize: int;
+  #maxSize: Integer;
 
-  constructor(maxSize: int) {
+  constructor(maxSize: Integer) {
     if (Integer.isPositiveInteger(maxSize) !== true) {
       throw new TypeError("maxSize");
     }
