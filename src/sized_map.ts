@@ -1,10 +1,10 @@
-import { Integer } from "../deps.ts";
+import { NonNegativeInteger } from "../deps.ts";
 
 class SizedMap<K, V> extends Map<K, V> {
-  #maxSize: Integer;
+  #maxSize: NonNegativeInteger;
 
-  constructor(maxSize: Integer) {
-    if (Integer.isPositiveInteger(maxSize) !== true) {
+  constructor(maxSize: NonNegativeInteger) {
+    if (NonNegativeInteger.isNonNegativeInteger(maxSize) !== true) {
       throw new TypeError("maxSize");
     }
     super();
@@ -12,10 +12,10 @@ class SizedMap<K, V> extends Map<K, V> {
   }
 
   override set(key: K, value: V): this {
-    if (this.size >= this.#maxSize) {
+    super.set(key, value);
+    if (this.size > this.#maxSize) {
       this.delete([...this.keys()][0]);
     }
-    super.set(key, value);
     return this;
   }
 }

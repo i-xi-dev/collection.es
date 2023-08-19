@@ -22,13 +22,13 @@ Deno.test("new SizedMap(*)", () => {
 });
 
 Deno.test("new SizedMap(number)", () => {
-  assertThrows(
-    () => {
-      new SizedMap(0);
-    },
-    TypeError,
-    "maxSize",
-  );
+  // assertThrows(
+  //   () => {
+  //     new SizedMap(0);
+  //   },
+  //   TypeError,
+  //   "maxSize",
+  // );
 
   assertThrows(
     () => {
@@ -48,6 +48,17 @@ Deno.test("new SizedMap(number)", () => {
 
   const m0 = new SizedMap(1);
   assertStrictEquals(m0 instanceof Map, true);
+});
+
+Deno.test("SizedMap.set(*, *) - 0", () => {
+  const m0 = new SizedMap<string, string>(0);
+  assertStrictEquals(m0.size, 0);
+  m0.set("1", "a");
+  assertStrictEquals(m0.size, 0);
+  m0.set("2", "b");
+  assertStrictEquals(m0.size, 0);
+  assertStrictEquals(m0.has("1"), false);
+  assertStrictEquals(m0.has("2"), false);
 });
 
 Deno.test("SizedMap.set(*, *) - 1", () => {
