@@ -116,12 +116,12 @@
     "https://deno.land/x/ts_morph@18.0.0/common/typescript.js": "d5c598b6a2db2202d0428fca5fd79fc9a301a71880831a805d778797d2413c59",
     "https://deno.land/x/wasmbuild@0.14.1/cache.ts": "89eea5f3ce6035a1164b3e655c95f21300498920575ade23161421f5b01967f4",
     "https://deno.land/x/wasmbuild@0.14.1/loader.ts": "d98d195a715f823151cbc8baa3f32127337628379a02d9eb2a3c5902dbccfc02",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/mod.ts": "c5ce2ee6830d305193012b47b4716b66cd4b99680774bdc0fac149ee98a8487a",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/integer.ts": "13b3bbd54397cf9d44f5c319e06e7c5dc36c2ea886b617ab680b2b650e123ddb",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/non_negative_integer.ts": "ecf46ec41566d7ccf09528048c7cb247064575d7db0da27a56489ec3bf5e86de",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/number.ts": "229475e840fce5f92e7a0d0ec20c0d2a9747675402b2c55896bd2838b49ea462",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/positive_integer.ts": "660693f5267eb6e3cecb6ce7f8ff3000ab459b8380af5d22c33076c8380e197b",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/uint6.ts": "690dedd90eb2d5f33dd5b7117607d7c17910a45985682b7f8531b046b726581d",
-    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.0/src/uint8.ts": "ab5f6b08c9e1f9e260ab32947370a4f22c1435e714fc6dc13fcdb98786a3fdbf"
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/mod.ts": "c5ce2ee6830d305193012b47b4716b66cd4b99680774bdc0fac149ee98a8487a",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/integer.ts": "505a68feb76b7238123883a135d6237c62a1785dd215adebc236fa1866272660",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/non_negative_integer.ts": "e8e585b2c9411e05d5bab3055c3ed793a925e0e11be5d4023d3e256de16e9c75",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/number.ts": "229475e840fce5f92e7a0d0ec20c0d2a9747675402b2c55896bd2838b49ea462",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/positive_integer.ts": "d343c921767aa09ff338c7cbd50c9351ae1e682df012424070bed58a642effa4",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/uint6.ts": "690dedd90eb2d5f33dd5b7117607d7c17910a45985682b7f8531b046b726581d",
+    "https://raw.githubusercontent.com/i-xi-dev/number.es/2.0.1/src/uint8.ts": "d981d53ea5348964ea898b2b880ba9be74675d588f726ba7de0ab67383177b1a"
   }
 }
