@@ -1,10 +1,10 @@
-import { NonNegativeInteger } from "../deps.ts";
+import { SafeInteger } from "../deps.ts";
 
 class SizedMap<K, V> extends Map<K, V> {
-  #maxSize: NonNegativeInteger;
+  #maxSize: SafeInteger;
 
-  constructor(maxSize: NonNegativeInteger) {
-    if (NonNegativeInteger.isNonNegativeInteger(maxSize) !== true) {
+  constructor(maxSize: SafeInteger) {
+    if (SafeInteger.isNonNegative(maxSize) !== true) {
       throw new TypeError("maxSize");
     }
     super();
