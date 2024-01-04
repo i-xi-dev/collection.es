@@ -1,10 +1,10 @@
 import { SafeInteger } from "../deps.ts";
 
-class SizedMap<K, V> extends Map<K, V> {
+export class SizedMap<K, V> extends Map<K, V> {
   #maxSize: SafeInteger;
 
   constructor(maxSize: SafeInteger) {
-    if (SafeInteger.isNonNegative(maxSize) !== true) {
+    if (SafeInteger.isNonNegativeSafeInteger(maxSize) !== true) {
       throw new TypeError("maxSize");
     }
     super();
@@ -19,6 +19,3 @@ class SizedMap<K, V> extends Map<K, V> {
     return this;
   }
 }
-Object.freeze(SizedMap);
-
-export { SizedMap };
