@@ -31,10 +31,10 @@ await build({
     publishConfig: {
       access: "public",
     },
-    files: [
-      "esm",
-      "types",
-    ],
+    // files: [
+    //   "esm",
+    //   "types",
+    // ],
   },
   typeCheck: "both",
   declaration: "inline",
