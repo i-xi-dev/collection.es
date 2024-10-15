@@ -1,4 +1,4 @@
-import { build, emptyDir } from "https://deno.land/x/dnt@0.40.0/mod.ts";
+import { build, emptyDir } from "jsr:@deno/dnt@0.41.3";
 
 await emptyDir("./npm");
 
@@ -15,7 +15,7 @@ await build({
   rootTestDir: "./tests",
   package: {
     name: "@i-xi-dev/collection",
-    version: "2.0.14",
+    version: "2.0.16",
     description: "This is not for direct usage.",
     license: "MIT",
     author: "i-xi-dev",
