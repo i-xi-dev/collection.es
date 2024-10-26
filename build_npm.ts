@@ -15,7 +15,7 @@ await build({
   rootTestDir: "./tests",
   package: {
     name: "@i-xi-dev/collection",
-    version: "2.0.17",
+    version: "2.0.18",
     description: "This is not for direct usage.",
     license: "MIT",
     author: "i-xi-dev",
